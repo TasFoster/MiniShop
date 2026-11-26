@@ -1,0 +1,26 @@
+.btn{
+    border: 3px salmon solid;
+    border-radius: 18px;
+    transition: border 300ms ease, background-color 300ms ease;
+}
+.btn[b-type = "text"]{
+    background-color: rgb(223, 72, 247);
+    height: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.btn[b-type = "img"]{
+    width: 75px;
+    height: 75px;
+    
+}
+.btn[b-type = "img"] img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.btn:hover{
+    border: 6px rgb(165, 72, 61) solid;
+    background-color: rgb(138, 23, 156);
+}
+
